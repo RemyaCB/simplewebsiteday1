@@ -1,0 +1,272 @@
+*{padding: 0;
+    margin: 0;
+box-sizing: border-box;
+font-family: Georgia, serif;
+}
+
+.navbar-brand{
+font-size: 1.9rem;
+color: black;
+
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    text-transform: uppercase;
+
+}
+.nav-link:hover{
+    color: black;
+}
+
+.main {
+    background: #ffcfe5;
+    background-size: cover;
+}
+
+.new {
+    background: #ffcfe5;
+    background-size: cover;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+
+.navbar-brand {
+    font-size: 1.9rem;
+    color: black;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+.nav-link {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.main {
+    background-size: cover;
+    background-position: 50% 50%;
+    padding-top: 70px;
+}
+
+.main h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: black;
+}
+
+.main h6 {
+    font-weight: 500;
+    color: black;
+}
+
+.btnL {
+    height: 30px;
+    width: 30%;
+    border: none;
+    font-weight: 350;
+}
+
+/* Style for each food item container */
+.food-item {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.food-item:hover {
+    transform: scale(1.05);
+}
+
+/* Style for the food item images */
+.food-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Style for food item descriptions and prices */
+.food-description {
+    padding: 10px;
+}
+
+.food-description h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.food-description p {
+    font-size: 14px;
+    color: #777;
+    margin: 5px 0;
+}
+
+.rate {
+    font-weight: bold;
+}
+.food-item img {
+    width: 200px;
+    height: 200px; /* Set a fixed height for all images */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 10px;
+}
+
+.carousel-item img {
+    max-width: 500px;
+    height: 500px; /* Adjust the height as needed */
+    object-fit: cover; /* This property ensures the image covers the fixed dimensions */
+    border: 1px solid #141010;
+    border-radius: 10px;
+    margin: 10px;
+}
+.bg-rose {
+    background-color: hsl(329, 62%, 85%); /* Replace with your desired rose color code */
+}
+
+.close {
+    font-size: 1.5rem;
+  }
+  
+
+  .containercontact {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+   
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea,
+  #contact button[type="submit"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+  }
+  
+  #contact {
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 100px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  
+  #contact h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
+  #contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  
+  fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+  }
+  
+  #contact input[type="text"]:hover,
+  #contact input[type="email"]:hover,
+  #contact input[type="tel"]:hover,
+  #contact input[type="url"]:hover,
+  #contact textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+  }
+  
+  #contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+  }
+  
+  #contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #4CAF50;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  #contact button[type="submit"]:hover {
+    background: #43A047;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  .copyright {
+    text-align: center;
+  }
+  
+  #contact input:focus,
+  #contact textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #888;
+  }
+  
+  :-moz-placeholder {
+    color: #888;
+  }
+  
+  ::-moz-placeholder {
+    color: #888;
+  }
+  
+  :-ms-input-placeholder {
+    color: #888;
+  }
