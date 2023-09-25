@@ -21,23 +21,20 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Menu</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">Gallery</a>
-                </li>
-            </ul>
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="gallery.html">Gallery</a>
+            </li>
+        </ul>
             <form class="form-inline my-2 my-lg-0">
                 <button type="button" class="btn btn-outline-danger" data-mdb-ripple-color="dark">Sign In</button>
             </form>
@@ -63,11 +60,27 @@
             <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
           </fieldset>
           <fieldset>
-            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            
+
+            <button name="submit" type="submit" id="submitform">Submit</button>
           </fieldset>
         </form>
       </div>
 
+<script>
+function showmessage(){
+alert("Message sent  Successfully...");
+}
+const submitbutton = document.getElementById('submitform');
+submitbutton.addEventListener('click', function (event) {
+event.preventDefault();
+showmessage();
+});
+  
+</script>
+      
+      
+  
 
 
    </body>

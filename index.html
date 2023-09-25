@@ -26,13 +26,10 @@
                     <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Menu</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="about.html">About Us</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="gallery.html">Gallery</a>
@@ -51,7 +48,7 @@
                     <h1>Serving culinary delights, </h1><h1>one plate at a time !</h1>
                     <h6>Discover a culinary paradise here.</h6>
                     <h6>We are always near to you with fresh item of food.</h6>
-                    <button type="button" class="btn btn-outline-danger" data-mdb-ripple-color="dark">Explore more</button>
+                   <a href="about.html"> <button type="button" class="btn btn-outline-danger" data-mdb-ripple-color="dark">Explore more</button></a>
                 </div>
                 <div class="col-lg-5">
                     <!-- Image Carousel -->
@@ -188,18 +185,16 @@
    
  
 
-    <!-- JavaScript for Image Carousel -->
+    
     <script>
-        var carouselInterval = 3000; // 3 seconds (adjust as needed)
+        var carouselInterval = 3000; 
         var currentSlide = 0;
         var carouselItems = document.querySelectorAll('.carousel-item');
-        
         function nextSlide() {
             carouselItems[currentSlide].classList.remove('active');
             currentSlide = (currentSlide + 1) % carouselItems.length;
             carouselItems[currentSlide].classList.add('active');
         }
-
         setInterval(nextSlide, carouselInterval);
     </script>
 </script>
